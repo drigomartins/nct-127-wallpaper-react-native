@@ -1,17 +1,25 @@
 import { WallpaperItem } from '@/domain';
 
 import { winWin } from './winwin';
-import { ten } from './ten';
-import { xiaojun } from './xiaojun';
-import { liuYangyang } from './liu-Yangyang';
-import { kun } from './kun';
-import { hendery } from './hendery';
+import { doyoung } from './doyoung';
+import { haechan } from './haechan';
+import { johnny } from './johnny';
+import { taeyong } from './taeyong';
+import { jaehyun } from './jaehyun';
+import { yuta } from './yuta';
+import { jungwoo } from './jungwoo';
+import { mark } from './mark';
+import { nct127 } from './nct127';
 
 export const wallpaperList: WallpaperItem[] = [
+  ...mark,
+  ...doyoung,
+  ...haechan,
   ...winWin,
-  ...ten,
-  ...xiaojun,
-  ...liuYangyang,
-  ...kun,
-  ...hendery,
+  ...johnny,
+  ...taeyong,
+  ...yuta,
+  ...jaehyun,
+  ...jungwoo,
+  ...nct127,
 ];

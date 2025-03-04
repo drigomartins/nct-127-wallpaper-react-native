@@ -1,10 +1,14 @@
 export type Category =
+  | 'Doyoung'
+  | 'Haechan'
   | 'WinWin'
-  | 'Ten'
-  | 'Xiaojun'
-  | 'Liu Yangyang'
-  | 'Kun'
-  | 'Hendery'
+  | 'Johnny'
+  | 'Taeyong'
+  | 'Yuta'
+  | 'Jaehyun'
+  | 'Jungwoo'
+  | 'Mark'
+  | 'NCT 127'
 
 
 
